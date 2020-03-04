@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+   color: #555;
+   background-color: #fff;
+   font-family: Lato;
+   font-weight: 300;
+   font-size: 20px;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.main-title {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.title{
+    color: #fff;
+    font-weight: 200;
+}
+
+.btn {
+    padding: 10px 30px;
+    border: 1px solid #e67e22;
+    border-radius: 200px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 100;
+    display: inline-block;
+}
+
+.hungry-btn {
+    background-color: #e67e22;
+    margin-right: 10px;
+}
+
+.hungry-btn:hover {
+    background-color: #cf6d17;
+    border: 1px solid #cf6d17;
+}
+
+.more-btn:hover {
+    background-color: #cf6d17;
+    color: #fff;
+    transition: 0.5s;
+    border: 1px solid #cf6d17;
+}
+
+.more-btn {
+    color: #e67e22;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 15px; 
+    font-size: 200%;
+}
+
+.logo {
+    float : left;
+    height: 100px;
+    width: auto;
+    margin-top: 20px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.main-nav li {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+.main-nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+}
+
+.main-nav li a:hover {
+    color: #fff;
+    text-decoration: none;
+    font-size: 90%;
+    border-bottom: 2px solid #e67e22;
+    padding-bottom: 5px;  
+    transition: border-bottom 0.5s;
+}
